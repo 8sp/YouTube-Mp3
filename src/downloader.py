@@ -1,4 +1,7 @@
-# LIBRARIES
+# Copyright © 2022 All Rights Reserved
+# Developed & Programmed By Null
+# For More Information Contact @entrysquad (IG)
+
 import youtube_dl
 import os
 import colorama
@@ -7,7 +10,7 @@ from os import system
 colorama.init(autoreset=True)
 system("title " + "YouTube Mp3 Downloader - By Null")
 
-# LOGO
+# Null
 logo = f"""     
    _   _       _ _ 
   | \ | |_   _| | |
@@ -17,7 +20,7 @@ logo = f"""
 """
 print(Fore.CYAN+logo)
 
-# DEF FUNCTIONS
+# Def Function
 def run():
     video_url = input(f"[{Fore.MAGENTA}?{Fore.RESET}] YouTube Video Url: ")
     video_info = youtube_dl.YoutubeDL().extract_info(
@@ -29,8 +32,7 @@ def run():
         'keepvideo':False,
         'outtmpl':filename,
     }
-
-# WITH STATEMENT
+# With Statement   
     with youtube_dl.YoutubeDL(options) as ydl:
         ydl.download([video_info['webpage_url']])
 
@@ -39,3 +41,4 @@ def run():
 
 if __name__=='__main__':
     run()
+# End Codding
