@@ -1,5 +1,6 @@
 # YouTube Mp3 Downloader
-![YouTubeMp3Downloader](https://user-images.githubusercontent.com/88463490/164564214-05c1ae6d-b926-429f-90bd-feafcebe501b.png)
+![Screenshot_3](https://user-images.githubusercontent.com/88463490/168334714-9a7028cc-3c73-432b-8c68-45cdce6a8dbb.png)
+
 <h3 align="left">Socials:</h3>
 
 <a href="https://instagram.com/entrysquad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="entrysquad" height="30" width="40" /></a>
