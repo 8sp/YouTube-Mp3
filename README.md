@@ -8,20 +8,16 @@
 ## REQUIREMENTS
 
 ```
+$ pip install youtube_dl
 $ pip install os
-$ pip install sys
 $ pip install colorama
-$ pip install time
-$ pip install requests
-$ users.txt
 ```
 ## INSTALLATION [Linux]:
 ```
- git clone https://github.com/8sp/Gh-Checker
- cd Gh-Checker
- cd src
- python3 gh-checker.py
- python3 user-maker.py
+$ git clone https://github.com/8sp/YouTube-Mp3
+$ cd YouTube-Mp3
+$ cd src
+$ python3 downloader.py
 ```
 ## CONNECT WITH US:
 
