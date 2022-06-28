@@ -11,6 +11,7 @@
 $ pip install youtube_dl
 $ pip install os
 $ pip install colorama
+$ pip install -r requierments.txt
 ```
 ## INSTALLATION [Linux]:
 ```
