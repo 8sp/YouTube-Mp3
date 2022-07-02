@@ -1,7 +1,8 @@
-# Copyright © 2022 All Rights Reserved
-# Developed & Programmed By Null
-# For More Information Contact @entrysquad (IG)
+# Copyright (c) 2022 All Rights Reserved / Null
+# YouTube Mp3 Downloader Developed & Programmed By Null
+# Gain our Friendsip - @entrysquad (IG) @overexcited (T)
 
+# Libraries
 import youtube_dl
 import os
 import colorama
@@ -12,15 +13,16 @@ system("title " + "YouTube Mp3 Downloader - By Null")
 
 # Null
 logo = f"""     
-   _   _       _ _ 
-  | \ | |_   _| | |
-  |  \| | | | | | |
-  | |\  | |_| | | |
-  |_| \_|\__,_|_|_| {Fore.WHITE}(v1.0){Fore.RESET}
+     __       _ _ 
+  /\ \ \_   _| | |
+ /  \/ / | | | | |
+/ /\  /| |_| | | |
+\_\ \/  \__,_|_|_| {Fore.WHITE}(v1.0){Fore.RESET}
+
 """
 print(Fore.CYAN+logo)
 
-# Def Function
+# Url
 def run():
     video_url = input(f"[{Fore.MAGENTA}?{Fore.RESET}] YouTube Video Url: ")
     video_info = youtube_dl.YoutubeDL().extract_info(
@@ -32,7 +34,7 @@ def run():
         'keepvideo':False,
         'outtmpl':filename,
     }
-# With Statement   
+# Downloaded   
     with youtube_dl.YoutubeDL(options) as ydl:
         ydl.download([video_info['webpage_url']])
 
@@ -41,4 +43,4 @@ def run():
 
 if __name__=='__main__':
     run()
-# End Codding
+# End /
